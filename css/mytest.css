@@ -1,0 +1,418 @@
+body { padding-top: 70px; overflow: hidden; }
+.optionBox { position: fixed; top: 100px; left: 0px; z-index: 9999;}
+.optionBox .color-option
+{
+	float: left;
+	background-color: #333;
+	color: #AAA;
+	padding: 10px;
+	width: 200px;
+	display: none;
+		
+}
+.optionBox .color-option ul li
+{
+	width: 20px ;
+	height: 20px;
+	display: inline-block;
+	background-color: #080;
+	margin-right: 3px;
+}
+.optionBox .gearcheck { padding: 5px; color: #FFF; cursor: pointer;}
+.navbar { min-height: 70px;}
+.navbar-brand { padding: 25px 15px; font-size: 36px; line-height: 25px;}
+.navbar-toggle { margin-top: 20px;}
+.navbar-default .navbar-nav > li > a { color: #BBB; padding-top: 25px; padding-bottom: 25px; font-size: 19px; }
+.navbar-inverse .navbar-brand { color: #BBB;}
+.dropdown-menu { background-color: #333; min-width: 200px;}
+.dropdown-menu > li > a
+{
+	color: #FFF;
+	padding-top: 10px; 
+	transition: padding .5s ease-in-out;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { padding-left: 30px;}
+.navbar-right .dropdown-menu { right: -66px;left: -67px; }
+.carousel-indicators li { width: 15px; height: 15px; }
+.carousel-indicators .active { width: 17px; height: 17px;}
+.carousel-indicators { bottom: 0px;}
+.row div:first-child {margin-bottom: 0px;}
+/*end overtiding bootstrip*/
+.featurs { background-color: #DDD; margin-top: 100px;}
+.featurs h1 { margin-bottom: 50px;}
+.featurs .row .feat { margin-bottom: 20px; }
+.featurs .feat p { line-height: 2em; }
+.featurs .feat span.glyphicon { font-size: 24px; margin-bottom: 20px; }
+.testmonail{ margin-top: 100px; padding: 50px 0px; min-height: 200px;}
+.testmonail h1 { margin: 0px 0 20px; font-weight: bold;}
+.testmonail .lead { line-height: 2em; margin-bottom: 10px;}
+.testmonail .carousel-inner > .item { min-height: 140px;}
+.testmonail span { font-size: 18px; font-weight: bold;}
+.testmonail .carousel-indicators { position: static; width: 100%; margin: auto;}
+.testmonail .carousel-indicators li 
+{
+	text-indent: 0;
+	width: 80px ;
+	height: 80px;
+	opacity: .4;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 5px;	
+}
+.testmonail .carousel-indicators li img{ width: 100%; border-radius: 10px;}
+.testmonail .carousel-indicators .active { opacity: 1; }
+/*start price table*/
+.price { background: #EEE; padding: 40px 0;}
+.price h1 { margin-bottom: 30px;}
+section.price .price-box
+{
+	background: #FFF;
+	padding: 10px;
+	border: 1px solid #DDD;
+	margin-bottom: 20px; 
+}
+section.price .price-box:hover p
+{
+	transform: scale(1.2,1.2) rotate(360deg);
+	-webkit-transform: scale(1.2,1.2) rotate(360deg);
+	-mpz-transform: scale(1.2,1.2) rotate(360deg);
+	-ms-transform: scale(1.2,1.2) rotate(360deg);
+	-o-transform: scale(1.2,1.2) rotate(360deg);
+	border:2px solid #DFDFDF;
+
+}
+.price .price-box h2 { margin: 5px 0px 15px }
+.price .price-box p
+{
+	font-size: 35px;
+	font-weight: bold;
+	color: #666;
+	border: 1px solid #FFF;
+	width: 100px;
+	height: 100px;
+	background-color: #F3F3F3;
+	border-radius: 50%;
+	line-height: 100px;
+	transition-duration: .9s;
+	-webkit-transition-duration: .9s;
+	-moz-transition-duration: .7s;
+	-o-transition-duration: .7s;
+	-ms-transition-duration: .7s;
+}
+.price .price-box ul
+{
+	line-height: 250%;
+	font-size: 18px;
+}
+.price .price-box a { margin-bottom: 5px; }
+/*start price table*/
+/*start our team*/
+.our-team
+{
+	background: url(../../iti/HD%20Wallpapers/BestHDWallpapersPack494_42.jpg) no-repeat center center fixed;
+	min-height: 600px;
+}
+.our-team .team
+{
+	background: rgba(2,2,2,.7);
+	color: #FFF;
+	min-height: 600px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.our-team .team h1 { margin-bottom: 60px; }
+.our-team .team .person { margin-bottom: 20px; }
+
+/*end our team*/
+/*staret section subscribe*/
+.subscribe
+{
+	padding: 50px 0px 60px;
+	background: #EEE;
+}
+.subscribe h1
+{
+	color: #888;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+.subscribe p { margin-bottom: 30px;}
+.subscribe .form-control
+{
+	border-radius: 0;
+	margin-right: -4px;
+	width: 300px;
+}
+.subscribe button { border-radius: 0;}
+/*end sction subsctibe*/
+/*start section stats*/
+.stats
+{
+	background: url(../../iti/HD%20Wallpapers/BestHDWallpapersPack494_68.jpg) no-repeat center center fixed;
+	min-height: 300px;
+}
+.mystats
+{
+	background-color: rgba(2,2,2,.7);
+/*	width: 100%;*/
+	min-height: 300px;
+	color:#B6B5b5;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+.mystats h1 { margin-bottom: 40px;}
+.mystats .mystat
+{
+	margin-bottom: 30px;
+}
+.mystats .mystat:hover { color: #FFF;}
+.mystats .mystat p
+{
+	font-size: 60px;
+	font-weight: 800px;
+	margin-bottom: 0px;
+	font-family: Arial,Tahoma;
+}
+.mystats .mystat span {font-size: 18px;}
+/*end saction stats*/
+/*starte skill*/
+.skill { padding-top: 50px; padding-bottom: 50px; margin-top: 50px;}
+.skill h1 { margin-bottom: 60px;}
+.skill h3
+{
+	font-weight: bold;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+.skill .skillprogs .progress
+{
+	margin-bottom: 20px;
+	height: 30px;
+}
+.skill .skillprogs .progress .progress-bar
+{
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 10px;
+}
+/*end skill*/
+/*contatct us*/
+.contact
+{
+	background: url("../../iti/HD%20Wallpapers/almima (95)l.jpg") no-repeat center center fixed;
+	min-height: 300px;
+}
+.contact .mycontact
+{
+	background-color: rgba(9,9,9,.7);
+	min-height: 300px;
+	color: #DDD;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.contact .mycontact p { margin-bottom: 40px;}
+.contact .mycontact textarea.form-control
+{
+	height: 109px;
+	resize: none;
+}
+.contact .mycontact input[type="text"],
+.contact .mycontact textarea
+{
+	background-color: rgba(83,73,93,.7);
+	color: #FFF;
+	border: none;
+}
+.contact .mycontact .row div:first-child { margin-bottom: 20px;}
+/*contact us*/
+/*start our client*/
+.ourclient { background-color: #EEE; padding-top:30px;}
+.ourclient li { margin-bottom: 30px;}
+.ourclient li img
+{
+	opacity: .4;
+	filter: alpha(opacit =40);
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.ourclient li img:hover {opacity: 1;}
+/*en our client*/
+/*start footer*/
+.footer 
+{
+	background-color: #111;
+	color: #AAA;
+	padding: 10px 0px 0px;
+}
+.footer a {color: #AAA;}
+.footer .row .myfoot
+{
+	margin-bottom: 20px;
+}
+.footer a:hover
+{
+	color: #FFF;
+}
+.footer .myfoot h3
+{
+/*	color: #0895D1; */
+	letter-spacing: 1px;
+	margin: 30px 0px 20px;
+}
+.footer .myfoot .three-colum
+{
+	display: inline-block;
+	width: 100%;
+}
+.footer .myfoot .three-colum li
+{
+	width: 33.333%;
+	float: left;
+	padding: 5px 0px;
+}
+.footer .myfoot .social
+{
+	display: inline-block;
+	margin: 0px 0px 10px;
+	padding-top: 20px;
+}
+.footer .myfoot .social li
+{
+	float: left;
+	opacity: .4;
+	margin-right: 5px;
+	filter: alpha(opacity =40);
+}
+.footer .myfoot .social li:hover {opacity: 1}
+.footer .img-thumbnail
+{
+	height: 100px; 
+	background-color: rgba(0,0,0,.4);
+	border: 1px solid #444;
+	margin-bottom: 5px;
+}
+.footer .copyright
+{
+	background-color: #333;
+	color: #AAA;
+	padding: 15px 0px;
+	font-size: 18px;
+	font-weight:500px;
+	font-family: Arial;
+	
+}
+/*end footer*/
+/*start media quary*/
+@media (max-width:768px)
+{
+	.navbar-default .navbar-nav > li > a
+	{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.subscribe .form-control
+	{
+		margin: 10px auto;
+		width: 400px;
+	}
+	.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {max-height: none;}
+}
+@media (min-width: 768px) and (max-width:991px)
+{
+	.navbar-right {margin-right: -29px; }
+	.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {margin-left:-18px;}
+}
+/*end media quary*/
+/*start section loading*/
+.overlay
+{
+	background-color: #222;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999
+		
+}
+.spiner
+{
+	width: 60px;
+	height: 60px;
+	position: relative;
+	margin: 300px auto;	
+}
+.spiner .myfitsr, .spiner .nysecnd
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 50%;
+	background-color: #333;
+	opacity: .6;
+	transition: background 1s ease-in-out;
+	animation: myload 4s infinite ease-in-out alternate;
+}
+.spiner .nysecnd {animation-duration: 2s;}
+@keyframes myload
+{
+	0%,100% {
+		transform: scale(1,1) ;
+		
+		background-color: #333;
+		
+	}
+	25%
+	{
+		background-color: #888;
+	}
+	50%
+	{
+		transform: scale(2,2);
+		background-color: #fff;
+	}
+	75%
+	{
+		background-color: #AAA;
+	}
+}
+/*end section loading*/
+/*start my button top*/
+.mybutton_top
+{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: fixed;
+	right: 50px;
+	bottom: 10px;
+	z-index: 99998
+}
+.mybutton_top .btn-block
+{
+	display: none;
+}
+/*en my button top */
+/*start group */
+.contact,.stats,.our-team
+{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+}
+.footer .myfoot .social li,.ourclient li img,.mystats .mystat,.testmonail .carousel-indicators li
+{
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+}
+/*end groub*/
